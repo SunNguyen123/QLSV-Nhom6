@@ -14,7 +14,8 @@ namespace QLSV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FR_DIEUHUONG());
+            FR_DANGNHAP fr_DangNhap = new FR_DANGNHAP();
+            if(fr_DangNhap.ShowDialog()==DialogResult.OK) Application.Run(new FR_DIEUHUONG());
         }
     }
 }
