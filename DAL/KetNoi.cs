@@ -10,6 +10,11 @@ namespace DAL
         private static KetNoi obj = null;
         private SqlConnection connection=null;
         private string key = "";
+        public string Key 
+        {
+            set => key = value;
+            
+        }
         private KetNoi()
         {
 

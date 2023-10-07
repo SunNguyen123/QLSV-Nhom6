@@ -1,6 +1,7 @@
 ﻿using System;
 using QLSV.Views;
 using System.Windows.Forms;
+using DAL;
 
 namespace QLSV
 {
@@ -14,8 +15,9 @@ namespace QLSV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            FR_DANGNHAP fr_DangNhap = new FR_DANGNHAP();
-            if(fr_DangNhap.ShowDialog()==DialogResult.OK) Application.Run(new FR_DIEUHUONG());
+            IKetNoi kn = KetNoi.LayDoiTuong();
+            kn.Key = Properties.Settings.Default.KeyDB.ToString();
+            Application.Run(new FR_DANGNHAP(kn));
         }
     }
 }
