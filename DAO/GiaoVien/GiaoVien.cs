@@ -8,5 +8,6 @@ namespace DAO.GiaoVien
 {
     class GiaoVien
     {
+        
     }
 }
