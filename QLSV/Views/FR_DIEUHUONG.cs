@@ -1,20 +1,57 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace QLSV.Views
 {
     public partial class FR_DIEUHUONG : Form
     {
-        public FR_DIEUHUONG()
+        private string matk;
+        private string pq;
+        public FR_DIEUHUONG(string matk,string pq)
         {
             InitializeComponent();
+            this.matk = matk;
+            this.pq = pq;
+            
+        }
+
+        private void iconMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconMenuItem3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void FR_DIEUHUONG_Load(object sender, EventArgs e)
+        {
+            switch (pq) 
+            {
+                case "GV":
+                    mn_SV.Visible = false;
+                    mn_GV.Visible = false;
+                    mn_Khoa.Visible = false;
+                    mn_Mon.Visible = false;
+                    mn_Lop.Visible = false;
+                    break;
+                case "SV":
+                    mn_SV.Visible = false;
+                    mn_GV.Visible = false;
+                    mn_Khoa.Visible = false;
+                    mn_Mon.Visible = false;
+                    mn_QlDiem.Visible = false;
+                    break;
+                default:
+                    break;
+
+            
+            }
+        }
+
+        private void mn_Napdl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
