@@ -58,13 +58,6 @@ namespace DAO.SinhVien
             set { sdt = value; }
         }
 
-        private Lop lop;
-
-        public Lop LopHoc
-        {
-            get { return lop; }
-            set { lop = value; }
-        }
 
     }
 }
