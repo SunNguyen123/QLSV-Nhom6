@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="KeyDB" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Data Source=DESKTOP-9OR80U7\SQLEXPRESS;Initial Catalog=QLSV_NHOM6;Integrated Security=True</Value>
+      <Value Profile="(Default)">Data Source=PC-01\KHOACNTT;Initial Catalog=QLSV_NHOM6;Integrated Security=True</Value>
     </Setting>
     <Setting Name="TK" Type="System.String" Scope="User">
       <Value Profile="(Default)">admin</Value>

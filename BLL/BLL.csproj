@@ -54,10 +54,7 @@
     <Compile Include="QuanTriVien\DangNhap_BLL.cs" />
     <Compile Include="QuanTriVien\Email_BLL.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GiaoVien\" />
-    <Folder Include="SinhVien\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{45427c98-7aae-4dc4-8bf0-a9e8ec5523b4}</Project>

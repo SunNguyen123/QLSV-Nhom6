@@ -9,11 +9,14 @@ namespace QLSV.Views
 {
     public partial class FR_DANGNHAP : Form
     {
-        private DangNhap_BLL dangNhap_bll;        
+        private DangNhap_BLL dangNhap_bll; 
+       
+
         public FR_DANGNHAP(IKetNoi kn)
         {
             InitializeComponent();           
             dangNhap_bll = new DangNhap_BLL(kn);
+         
         }
         private FR_EMAIL fr_Email = null;
         private void LayLaiMatKhau_Click(object sender, LinkLabelLinkClickedEventArgs e)

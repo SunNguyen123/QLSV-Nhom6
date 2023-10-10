@@ -25,8 +25,7 @@ namespace QLSV.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-9OR80U7\\SQLEXPRESS;Initial Catalog=QLSV_NHOM6;Integrated Secu" +
-            "rity=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PC-01\\KHOACNTT;Initial Catalog=QLSV_NHOM6;Integrated Security=True")]
         public string KeyDB {
             get {
                 return ((string)(this["KeyDB"]));
