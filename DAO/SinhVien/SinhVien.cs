@@ -12,7 +12,7 @@ namespace DAO.SinhVien
 
         private string masv;
 
-        public string MaSv
+        public string MaSV
         {
             get { return masv; }
             set { masv = value; }
@@ -20,7 +20,7 @@ namespace DAO.SinhVien
 
         private string tensv;
 
-        public string TenSv
+        public string TenSV
         {
             get { return tensv; }
             set { tensv = value; }
@@ -40,6 +40,30 @@ namespace DAO.SinhVien
         {
             get { return gioitinh; }
             set { gioitinh = value; }
+        }
+
+        private string diachi;
+
+        public string DiaChi
+        {
+            get { return diachi; }
+            set { diachi = value; }
+        }
+
+        private int sdt;
+
+        public int SDT
+        {
+            get { return sdt; }
+            set { sdt = value; }
+        }
+
+        private Lop lop;
+
+        public Lop LopHoc
+        {
+            get { return lop; }
+            set { lop = value; }
         }
 
     }
