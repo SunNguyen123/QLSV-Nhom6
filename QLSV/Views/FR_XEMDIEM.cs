@@ -16,5 +16,10 @@ namespace QLSV.Views
         {
             InitializeComponent();
         }
+
+        private void FR_XEMDIEM_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

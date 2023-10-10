@@ -53,5 +53,10 @@ namespace QLSV.Views
         {
 
         }
+
+        private void iconMenuItem2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -37,10 +37,19 @@ namespace QLSV.Views
             this.label4 = new System.Windows.Forms.Label();
             this.cmb_monhoc = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.dgv_DsDiem = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DsDiem)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -109,7 +118,7 @@ namespace QLSV.Views
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Controls.Add(this.dgv_DsDiem);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(13, 212);
             this.groupBox1.Name = "groupBox1";
@@ -118,25 +127,92 @@ namespace QLSV.Views
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DANH SÁCH ĐIỂM";
             // 
-            // dataGridView1
+            // dgv_DsDiem
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 27);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(777, 204);
-            this.dataGridView1.TabIndex = 0;
+            this.dgv_DsDiem.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_DsDiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_DsDiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6,
+            this.Column7,
+            this.Column8,
+            this.Column9});
+            this.dgv_DsDiem.Location = new System.Drawing.Point(2, 27);
+            this.dgv_DsDiem.Name = "dgv_DsDiem";
+            this.dgv_DsDiem.Size = new System.Drawing.Size(777, 204);
+            this.dgv_DsDiem.TabIndex = 0;
             // 
-            // iconButton1
+            // button1
             // 
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.Location = new System.Drawing.Point(630, 140);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(81, 36);
-            this.iconButton1.TabIndex = 6;
-            this.iconButton1.Text = "iconButton1";
-            this.iconButton1.UseVisualStyleBackColor = true;
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(597, 146);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(81, 30);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Xem Điểm";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "MaSV";
+            this.Column1.HeaderText = "Mã SV";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "MaMon";
+            this.Column2.HeaderText = "Mã Môn";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "DiemTX";
+            this.Column3.HeaderText = "Điểm TX";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "DiemKT1";
+            this.Column4.HeaderText = "Điểm KT 1";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "DiemKT2";
+            this.Column5.HeaderText = "Điểm KT 2";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.DataPropertyName = "DiemThi";
+            this.Column6.HeaderText = "Điểm Thi";
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.DataPropertyName = "DiemTB";
+            this.Column7.HeaderText = "Điểm TB";
+            this.Column7.Name = "Column7";
+            // 
+            // Column8
+            // 
+            this.Column8.DataPropertyName = "TrangThai";
+            this.Column8.HeaderText = "Trạng thái";
+            this.Column8.Name = "Column8";
+            // 
+            // Column9
+            // 
+            this.Column9.DataPropertyName = "GhiChu";
+            this.Column9.HeaderText = "Ghi chú";
+            this.Column9.Name = "Column9";
             // 
             // FR_XEMDIEM
             // 
@@ -144,7 +220,7 @@ namespace QLSV.Views
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.iconButton1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.cmb_monhoc);
             this.Controls.Add(this.txt_tensv);
@@ -156,8 +232,9 @@ namespace QLSV.Views
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FR_XEMDIEM";
             this.Text = "FR_XEMDIEM";
+            this.Load += new System.EventHandler(this.FR_XEMDIEM_Load);
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DsDiem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,7 +250,16 @@ namespace QLSV.Views
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cmb_monhoc;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private FontAwesome.Sharp.IconButton iconButton1;
+        private System.Windows.Forms.DataGridView dgv_DsDiem;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
     }
 }

@@ -139,6 +139,7 @@ namespace QLSV.Views
             this.Name = "FR_DOIMATKHAU";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đổi mật khẩu";
+            this.Load += new System.EventHandler(this.FR_DOIMATKHAU_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

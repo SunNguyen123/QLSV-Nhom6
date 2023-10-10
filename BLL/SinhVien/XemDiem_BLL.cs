@@ -17,5 +17,10 @@ namespace BLL.SinhVien
             this.kn = kn;
         }
 
+        public bool tracuudiem(string masv, string mammon)
+        {
+
+        }
+
     }
 }
