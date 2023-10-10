@@ -226,6 +226,7 @@ namespace QLSV.Views
             this.Controls.Add(this.linkLabel1);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FR_DANGNHAP";
             this.Text = "Quản lý sinh viên";
             this.Load += new System.EventHandler(this.FR_DANGNHAP_Load);

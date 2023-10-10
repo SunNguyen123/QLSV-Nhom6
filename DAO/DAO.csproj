@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Khoa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SinhVien\Lop.cs" />
     <Compile Include="SinhVien\SinhVien.cs" />
     <Compile Include="TaiKhoan.cs" />
   </ItemGroup>

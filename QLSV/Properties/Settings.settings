@@ -6,10 +6,13 @@
       <Value Profile="(Default)">Data Source=PC-01\KHOACNTT;Initial Catalog=QLSV_NHOM6;Integrated Security=True</Value>
     </Setting>
     <Setting Name="TK" Type="System.String" Scope="User">
-      <Value Profile="(Default)">admin</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="MK" Type="System.String" Scope="User">
-      <Value Profile="(Default)">123</Value>
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="k" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

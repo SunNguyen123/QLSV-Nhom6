@@ -85,6 +85,12 @@
     <Compile Include="Views\FR_NAPDULIEU.Designer.cs">
       <DependentUpon>FR_NAPDULIEU.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\FR_XEMDIEM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FR_XEMDIEM.Designer.cs">
+      <DependentUpon>FR_XEMDIEM.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -109,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FR_NAPDULIEU.resx">
       <DependentUpon>FR_NAPDULIEU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FR_XEMDIEM.resx">
+      <DependentUpon>FR_XEMDIEM.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

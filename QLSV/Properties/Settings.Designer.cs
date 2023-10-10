@@ -37,7 +37,7 @@ namespace QLSV.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("admin")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string TK {
             get {
                 return ((string)(this["TK"]));
@@ -49,13 +49,25 @@ namespace QLSV.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("123")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string MK {
             get {
                 return ((string)(this["MK"]));
             }
             set {
                 this["MK"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string k {
+            get {
+                return ((string)(this["k"]));
+            }
+            set {
+                this["k"] = value;
             }
         }
     }

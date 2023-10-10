@@ -82,7 +82,7 @@ namespace QLSV.Views
             this.iconMenuItem1.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconMenuItem1.IconSize = 24;
             this.iconMenuItem1.Name = "iconMenuItem1";
-            this.iconMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.iconMenuItem1.Size = new System.Drawing.Size(170, 22);
             this.iconMenuItem1.Text = "Thông tin cá nhân";
             this.iconMenuItem1.Click += new System.EventHandler(this.iconMenuItem1_Click);
             // 
@@ -93,7 +93,7 @@ namespace QLSV.Views
             this.iconMenuItem2.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconMenuItem2.IconSize = 24;
             this.iconMenuItem2.Name = "iconMenuItem2";
-            this.iconMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.iconMenuItem2.Size = new System.Drawing.Size(170, 22);
             this.iconMenuItem2.Text = "Đổi mật khẩu";
             // 
             // iconMenuItem3
@@ -103,7 +103,7 @@ namespace QLSV.Views
             this.iconMenuItem3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMenuItem3.IconSize = 24;
             this.iconMenuItem3.Name = "iconMenuItem3";
-            this.iconMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.iconMenuItem3.Size = new System.Drawing.Size(170, 22);
             this.iconMenuItem3.Text = "Đăng xuất";
             this.iconMenuItem3.Click += new System.EventHandler(this.iconMenuItem3_Click);
             // 
@@ -147,7 +147,7 @@ namespace QLSV.Views
             this.iconMenuItem5.IconColor = System.Drawing.Color.Black;
             this.iconMenuItem5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMenuItem5.Name = "iconMenuItem5";
-            this.iconMenuItem5.Size = new System.Drawing.Size(180, 22);
+            this.iconMenuItem5.Size = new System.Drawing.Size(143, 22);
             this.iconMenuItem5.Text = "QL Giáo Viên";
             // 
             // iconMenuItem6
@@ -156,7 +156,7 @@ namespace QLSV.Views
             this.iconMenuItem6.IconColor = System.Drawing.Color.Black;
             this.iconMenuItem6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMenuItem6.Name = "iconMenuItem6";
-            this.iconMenuItem6.Size = new System.Drawing.Size(180, 22);
+            this.iconMenuItem6.Size = new System.Drawing.Size(143, 22);
             this.iconMenuItem6.Text = "QL Tài Khoản";
             // 
             // mn_Lop

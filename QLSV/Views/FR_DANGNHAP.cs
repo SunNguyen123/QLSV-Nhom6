@@ -16,7 +16,7 @@ namespace QLSV.Views
         {
             InitializeComponent();           
             dangNhap_bll = new DangNhap_BLL(kn);
-         
+        
         }
         private FR_EMAIL fr_Email = null;
         private void LayLaiMatKhau_Click(object sender, LinkLabelLinkClickedEventArgs e)

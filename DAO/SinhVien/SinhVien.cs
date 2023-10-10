@@ -66,5 +66,15 @@ namespace DAO.SinhVien
             set { lop = value; }
         }
 
+        private Khoa khoa;
+
+        public Khoa Khoa1
+        {
+            get { return khoa; }
+            set { khoa = value; }
+        }
+
+
+
     }
 }
