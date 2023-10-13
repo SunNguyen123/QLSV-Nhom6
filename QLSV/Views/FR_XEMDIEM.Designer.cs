@@ -38,7 +38,6 @@ namespace QLSV.Views
             this.cmb_monhoc = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgv_DsDiem = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,6 +47,8 @@ namespace QLSV.Views
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_DsDiem)).BeginInit();
             this.SuspendLayout();
@@ -55,10 +56,10 @@ namespace QLSV.Views
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(252, 27);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(279, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(220, 24);
+            this.label1.Size = new System.Drawing.Size(206, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "XEM ĐIỂM SINH VIÊN";
             // 
@@ -66,7 +67,7 @@ namespace QLSV.Views
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(108, 90);
+            this.label2.Location = new System.Drawing.Point(216, 63);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 17);
             this.label2.TabIndex = 1;
@@ -75,16 +76,16 @@ namespace QLSV.Views
             // txt_masv
             // 
             this.txt_masv.Enabled = false;
-            this.txt_masv.Location = new System.Drawing.Point(247, 87);
+            this.txt_masv.Location = new System.Drawing.Point(328, 60);
             this.txt_masv.Name = "txt_masv";
-            this.txt_masv.Size = new System.Drawing.Size(239, 22);
+            this.txt_masv.Size = new System.Drawing.Size(164, 22);
             this.txt_masv.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(108, 124);
+            this.label3.Location = new System.Drawing.Point(216, 97);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 17);
             this.label3.TabIndex = 1;
@@ -93,16 +94,16 @@ namespace QLSV.Views
             // txt_tensv
             // 
             this.txt_tensv.Enabled = false;
-            this.txt_tensv.Location = new System.Drawing.Point(247, 121);
+            this.txt_tensv.Location = new System.Drawing.Point(328, 94);
             this.txt_tensv.Name = "txt_tensv";
-            this.txt_tensv.Size = new System.Drawing.Size(239, 22);
+            this.txt_tensv.Size = new System.Drawing.Size(164, 22);
             this.txt_tensv.TabIndex = 2;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(108, 159);
+            this.label4.Location = new System.Drawing.Point(216, 132);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 17);
             this.label4.TabIndex = 1;
@@ -111,18 +112,18 @@ namespace QLSV.Views
             // cmb_monhoc
             // 
             this.cmb_monhoc.FormattingEnabled = true;
-            this.cmb_monhoc.Location = new System.Drawing.Point(247, 156);
+            this.cmb_monhoc.Location = new System.Drawing.Point(328, 129);
             this.cmb_monhoc.Name = "cmb_monhoc";
-            this.cmb_monhoc.Size = new System.Drawing.Size(235, 21);
+            this.cmb_monhoc.Size = new System.Drawing.Size(164, 21);
             this.cmb_monhoc.TabIndex = 3;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dgv_DsDiem);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(13, 212);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(13, 161);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(781, 232);
+            this.groupBox1.Size = new System.Drawing.Size(781, 283);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DANH SÁCH ĐIỂM";
@@ -141,24 +142,10 @@ namespace QLSV.Views
             this.Column7,
             this.Column8,
             this.Column9});
-            this.dgv_DsDiem.Location = new System.Drawing.Point(2, 27);
+            this.dgv_DsDiem.Location = new System.Drawing.Point(2, 19);
             this.dgv_DsDiem.Name = "dgv_DsDiem";
-            this.dgv_DsDiem.Size = new System.Drawing.Size(777, 204);
+            this.dgv_DsDiem.Size = new System.Drawing.Size(777, 258);
             this.dgv_DsDiem.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(597, 146);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 30);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Xem Điểm";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // Column1
             // 
@@ -214,13 +201,52 @@ namespace QLSV.Views
             this.Column9.HeaderText = "Ghi chú";
             this.Column9.Name = "Column9";
             // 
+            // iconButton1
+            // 
+            this.iconButton1.BackColor = System.Drawing.Color.Gray;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton1.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Print;
+            this.iconButton1.IconColor = System.Drawing.Color.Black;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 24;
+            this.iconButton1.Location = new System.Drawing.Point(573, 131);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(106, 33);
+            this.iconButton1.TabIndex = 7;
+            this.iconButton1.Text = "In báo cáo";
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            // 
+            // iconButton2
+            // 
+            this.iconButton2.BackColor = System.Drawing.Color.Black;
+            this.iconButton2.FlatAppearance.BorderSize = 0;
+            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton2.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
+            this.iconButton2.IconColor = System.Drawing.Color.White;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton2.IconSize = 24;
+            this.iconButton2.Location = new System.Drawing.Point(688, 131);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Size = new System.Drawing.Size(106, 33);
+            this.iconButton2.TabIndex = 7;
+            this.iconButton2.Text = "Tra cứu";
+            this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton2.UseVisualStyleBackColor = false;
+            // 
             // FR_XEMDIEM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.iconButton2);
+            this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.cmb_monhoc);
             this.Controls.Add(this.txt_tensv);
@@ -251,7 +277,6 @@ namespace QLSV.Views
         private System.Windows.Forms.ComboBox cmb_monhoc;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dgv_DsDiem;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -261,5 +286,7 @@ namespace QLSV.Views
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton iconButton2;
     }
 }

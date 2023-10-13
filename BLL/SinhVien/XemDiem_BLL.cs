@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL;
 using DAO;
+using System.Data.SqlClient;
 
 namespace BLL.SinhVien
 {
