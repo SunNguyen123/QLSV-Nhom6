@@ -142,6 +142,10 @@
       <Project>{45427C98-7AAE-4DC4-8BF0-A9E8EC5523B4}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{c8cf89cd-6586-4cbe-9a48-1e941da62411}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\8609147_5836.png" />

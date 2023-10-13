@@ -19,7 +19,7 @@ namespace BLL.SinhVien
 
         public bool tracuudiem(string masv, string mammon)
         {
-
+            return false;
         }
 
     }
