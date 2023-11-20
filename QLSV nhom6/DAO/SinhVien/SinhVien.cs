@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DAO.SinhVien
 {
-    public class SinhVien
+   public class SinhVien1
     {
+
 
 
         private string masv;

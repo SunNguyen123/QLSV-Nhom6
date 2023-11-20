@@ -31,17 +31,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dgv_nhapdiem = new System.Windows.Forms.DataGridView();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.btn_xoa = new FontAwesome.Sharp.IconButton();
+            this.btn_thoat = new FontAwesome.Sharp.IconButton();
+            this.btn_sua = new FontAwesome.Sharp.IconButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txt_makhoa = new System.Windows.Forms.TextBox();
-            this.txt_malop = new System.Windows.Forms.TextBox();
-            this.txt_tensv = new System.Windows.Forms.TextBox();
+            this.txt_mamon = new System.Windows.Forms.TextBox();
             this.txt_masv = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txt_diemtb = new System.Windows.Forms.TextBox();
@@ -99,66 +95,66 @@
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
-            // iconButton2
+            // btn_xoa
             // 
-            this.iconButton2.BackColor = System.Drawing.Color.Silver;
-            this.iconButton2.FlatAppearance.BorderSize = 0;
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Trash;
-            this.iconButton2.IconColor = System.Drawing.Color.DimGray;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.IconSize = 24;
-            this.iconButton2.Location = new System.Drawing.Point(623, 224);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Padding = new System.Windows.Forms.Padding(1, 12, 0, 10);
-            this.iconButton2.Size = new System.Drawing.Size(32, 32);
-            this.iconButton2.TabIndex = 5;
-            this.iconButton2.UseVisualStyleBackColor = false;
+            this.btn_xoa.BackColor = System.Drawing.Color.Silver;
+            this.btn_xoa.FlatAppearance.BorderSize = 0;
+            this.btn_xoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_xoa.IconChar = FontAwesome.Sharp.IconChar.Trash;
+            this.btn_xoa.IconColor = System.Drawing.Color.DimGray;
+            this.btn_xoa.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_xoa.IconSize = 24;
+            this.btn_xoa.Location = new System.Drawing.Point(623, 224);
+            this.btn_xoa.Name = "btn_xoa";
+            this.btn_xoa.Padding = new System.Windows.Forms.Padding(1, 12, 0, 10);
+            this.btn_xoa.Size = new System.Drawing.Size(32, 32);
+            this.btn_xoa.TabIndex = 5;
+            this.btn_xoa.UseVisualStyleBackColor = false;
+            this.btn_xoa.Click += new System.EventHandler(this.iconButton2_Click);
             // 
-            // iconButton3
+            // btn_thoat
             // 
-            this.iconButton3.BackColor = System.Drawing.Color.Silver;
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton3.ForeColor = System.Drawing.Color.Black;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.RightToBracket;
-            this.iconButton3.IconColor = System.Drawing.Color.DimGray;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 24;
-            this.iconButton3.Location = new System.Drawing.Point(699, 223);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Padding = new System.Windows.Forms.Padding(1, 12, 0, 10);
-            this.iconButton3.Size = new System.Drawing.Size(32, 32);
-            this.iconButton3.TabIndex = 5;
-            this.iconButton3.UseVisualStyleBackColor = false;
+            this.btn_thoat.BackColor = System.Drawing.Color.Silver;
+            this.btn_thoat.FlatAppearance.BorderSize = 0;
+            this.btn_thoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_thoat.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_thoat.ForeColor = System.Drawing.Color.Black;
+            this.btn_thoat.IconChar = FontAwesome.Sharp.IconChar.RightToBracket;
+            this.btn_thoat.IconColor = System.Drawing.Color.DimGray;
+            this.btn_thoat.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_thoat.IconSize = 24;
+            this.btn_thoat.Location = new System.Drawing.Point(699, 223);
+            this.btn_thoat.Name = "btn_thoat";
+            this.btn_thoat.Padding = new System.Windows.Forms.Padding(1, 12, 0, 10);
+            this.btn_thoat.Size = new System.Drawing.Size(32, 32);
+            this.btn_thoat.TabIndex = 5;
+            this.btn_thoat.UseVisualStyleBackColor = false;
+            this.btn_thoat.Click += new System.EventHandler(this.btn_thoat_Click);
             // 
-            // iconButton4
+            // btn_sua
             // 
-            this.iconButton4.BackColor = System.Drawing.Color.Silver;
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.PencilAlt;
-            this.iconButton4.IconColor = System.Drawing.Color.DimGray;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.IconSize = 24;
-            this.iconButton4.Location = new System.Drawing.Point(661, 223);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Padding = new System.Windows.Forms.Padding(1, 12, 0, 10);
-            this.iconButton4.Size = new System.Drawing.Size(32, 32);
-            this.iconButton4.TabIndex = 5;
-            this.iconButton4.UseVisualStyleBackColor = false;
+            this.btn_sua.BackColor = System.Drawing.Color.Silver;
+            this.btn_sua.FlatAppearance.BorderSize = 0;
+            this.btn_sua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sua.IconChar = FontAwesome.Sharp.IconChar.PencilAlt;
+            this.btn_sua.IconColor = System.Drawing.Color.DimGray;
+            this.btn_sua.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_sua.IconSize = 24;
+            this.btn_sua.Location = new System.Drawing.Point(661, 223);
+            this.btn_sua.Name = "btn_sua";
+            this.btn_sua.Padding = new System.Windows.Forms.Padding(1, 12, 0, 10);
+            this.btn_sua.Size = new System.Drawing.Size(32, 32);
+            this.btn_sua.TabIndex = 5;
+            this.btn_sua.UseVisualStyleBackColor = false;
+            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.txt_makhoa);
-            this.groupBox1.Controls.Add(this.txt_malop);
-            this.groupBox1.Controls.Add(this.txt_tensv);
+            this.groupBox1.Controls.Add(this.txt_mamon);
             this.groupBox1.Controls.Add(this.txt_masv);
-            this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 47);
@@ -168,26 +164,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sinh viên";
             // 
-            // txt_makhoa
+            // txt_mamon
             // 
-            this.txt_makhoa.Location = new System.Drawing.Point(430, 60);
-            this.txt_makhoa.Name = "txt_makhoa";
-            this.txt_makhoa.Size = new System.Drawing.Size(73, 22);
-            this.txt_makhoa.TabIndex = 6;
-            // 
-            // txt_malop
-            // 
-            this.txt_malop.Location = new System.Drawing.Point(430, 19);
-            this.txt_malop.Name = "txt_malop";
-            this.txt_malop.Size = new System.Drawing.Size(73, 22);
-            this.txt_malop.TabIndex = 7;
-            // 
-            // txt_tensv
-            // 
-            this.txt_tensv.Location = new System.Drawing.Point(170, 60);
-            this.txt_tensv.Name = "txt_tensv";
-            this.txt_tensv.Size = new System.Drawing.Size(132, 22);
-            this.txt_tensv.TabIndex = 8;
+            this.txt_mamon.Location = new System.Drawing.Point(170, 63);
+            this.txt_mamon.Name = "txt_mamon";
+            this.txt_mamon.Size = new System.Drawing.Size(73, 22);
+            this.txt_mamon.TabIndex = 7;
             // 
             // txt_masv
             // 
@@ -196,35 +178,15 @@
             this.txt_masv.Size = new System.Drawing.Size(132, 22);
             this.txt_masv.TabIndex = 9;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(350, 60);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(62, 17);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Mã Khoa";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(362, 28);
+            this.label4.Location = new System.Drawing.Point(37, 63);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 17);
+            this.label4.Size = new System.Drawing.Size(59, 17);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Mã lớp";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(35, 60);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 17);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Tên Sinh Viên";
+            this.label4.Text = "Mã môn";
             // 
             // label2
             // 
@@ -348,9 +310,9 @@
             this.ClientSize = new System.Drawing.Size(743, 576);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.iconButton4);
-            this.Controls.Add(this.iconButton3);
-            this.Controls.Add(this.iconButton2);
+            this.Controls.Add(this.btn_sua);
+            this.Controls.Add(this.btn_thoat);
+            this.Controls.Add(this.btn_xoa);
             this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.dgv_nhapdiem);
             this.Controls.Add(this.label1);
@@ -373,17 +335,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgv_nhapdiem;
         private FontAwesome.Sharp.IconButton iconButton1;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton btn_xoa;
+        private FontAwesome.Sharp.IconButton btn_sua;
+        private FontAwesome.Sharp.IconButton btn_thoat;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txt_makhoa;
-        private System.Windows.Forms.TextBox txt_malop;
-        private System.Windows.Forms.TextBox txt_tensv;
+        private System.Windows.Forms.TextBox txt_mamon;
         private System.Windows.Forms.TextBox txt_masv;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txt_diemtb;

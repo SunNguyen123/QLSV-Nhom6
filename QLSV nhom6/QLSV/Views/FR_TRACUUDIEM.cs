@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace QLSV.Views
 {
-    public partial class FR_NHAPDIEM : Form
+    public partial class FR_TRACUUDIEM : Form
     {
-        public FR_NHAPDIEM()
+        public FR_TRACUUDIEM()
         {
             InitializeComponent();
-        }
-
-        private void FR_NHAPDIEM_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

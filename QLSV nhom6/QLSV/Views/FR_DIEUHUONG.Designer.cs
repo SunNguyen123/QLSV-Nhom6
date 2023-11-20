@@ -45,6 +45,7 @@ namespace QLSV.Views
             this.mn_Khoa = new System.Windows.Forms.ToolStripMenuItem();
             this.mn_QlDiem = new System.Windows.Forms.ToolStripMenuItem();
             this.mn_Napdl = new System.Windows.Forms.ToolStripMenuItem();
+            this.nhậpĐiểmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,7 +83,7 @@ namespace QLSV.Views
             this.iconMenuItem1.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconMenuItem1.IconSize = 24;
             this.iconMenuItem1.Name = "iconMenuItem1";
-            this.iconMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.iconMenuItem1.Size = new System.Drawing.Size(170, 22);
             this.iconMenuItem1.Text = "Thông tin cá nhân";
             this.iconMenuItem1.Click += new System.EventHandler(this.iconMenuItem1_Click);
             // 
@@ -93,7 +94,7 @@ namespace QLSV.Views
             this.iconMenuItem2.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconMenuItem2.IconSize = 24;
             this.iconMenuItem2.Name = "iconMenuItem2";
-            this.iconMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.iconMenuItem2.Size = new System.Drawing.Size(170, 22);
             this.iconMenuItem2.Text = "Đổi mật khẩu";
             this.iconMenuItem2.Click += new System.EventHandler(this.iconMenuItem2_Click);
             // 
@@ -104,7 +105,7 @@ namespace QLSV.Views
             this.iconMenuItem3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMenuItem3.IconSize = 24;
             this.iconMenuItem3.Name = "iconMenuItem3";
-            this.iconMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.iconMenuItem3.Size = new System.Drawing.Size(170, 22);
             this.iconMenuItem3.Text = "Đăng xuất";
             this.iconMenuItem3.Click += new System.EventHandler(this.iconMenuItem3_Click);
             // 
@@ -148,7 +149,7 @@ namespace QLSV.Views
             this.iconMenuItem5.IconColor = System.Drawing.Color.Black;
             this.iconMenuItem5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMenuItem5.Name = "iconMenuItem5";
-            this.iconMenuItem5.Size = new System.Drawing.Size(143, 22);
+            this.iconMenuItem5.Size = new System.Drawing.Size(180, 22);
             this.iconMenuItem5.Text = "QL Giáo Viên";
             // 
             // iconMenuItem6
@@ -157,7 +158,7 @@ namespace QLSV.Views
             this.iconMenuItem6.IconColor = System.Drawing.Color.Black;
             this.iconMenuItem6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMenuItem6.Name = "iconMenuItem6";
-            this.iconMenuItem6.Size = new System.Drawing.Size(143, 22);
+            this.iconMenuItem6.Size = new System.Drawing.Size(180, 22);
             this.iconMenuItem6.Text = "QL Tài Khoản";
             // 
             // mn_Lop
@@ -180,6 +181,8 @@ namespace QLSV.Views
             // 
             // mn_QlDiem
             // 
+            this.mn_QlDiem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nhậpĐiểmToolStripMenuItem});
             this.mn_QlDiem.Name = "mn_QlDiem";
             this.mn_QlDiem.Size = new System.Drawing.Size(65, 20);
             this.mn_QlDiem.Text = "QL Điểm";
@@ -190,6 +193,13 @@ namespace QLSV.Views
             this.mn_Napdl.Size = new System.Drawing.Size(80, 20);
             this.mn_Napdl.Text = "Nạp dữ liệu";
             this.mn_Napdl.Click += new System.EventHandler(this.mn_Napdl_Click);
+            // 
+            // nhậpĐiểmToolStripMenuItem
+            // 
+            this.nhậpĐiểmToolStripMenuItem.Name = "nhậpĐiểmToolStripMenuItem";
+            this.nhậpĐiểmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nhậpĐiểmToolStripMenuItem.Text = "Nhập Điểm";
+            this.nhậpĐiểmToolStripMenuItem.Click += new System.EventHandler(this.nhậpĐiểmToolStripMenuItem_Click);
             // 
             // FR_DIEUHUONG
             // 
@@ -228,5 +238,6 @@ namespace QLSV.Views
         private System.Windows.Forms.ToolStripMenuItem mn_Khoa;
         private System.Windows.Forms.ToolStripMenuItem mn_QlDiem;
         private System.Windows.Forms.ToolStripMenuItem mn_Napdl;
+        private System.Windows.Forms.ToolStripMenuItem nhậpĐiểmToolStripMenuItem;
     }
 }

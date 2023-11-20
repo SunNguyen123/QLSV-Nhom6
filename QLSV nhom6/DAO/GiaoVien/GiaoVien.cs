@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAO.GiaoVien
 {
-   public class GiaoVien
+   public class GiaoVien1
     {
         private string magv;
 

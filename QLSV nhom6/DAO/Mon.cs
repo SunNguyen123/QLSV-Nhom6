@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    class Mon
+   public class Mon
     {
         private string mamon;
 
